@@ -6,14 +6,16 @@ string playerName = Console.ReadLine();
 int playerHealth = 100;
 string playerWeapon = "2d6";
 string playerBlock = "1d20";
-Monster monster = new Monster("Goblin", 15, "1d6");
+Monster monster = new Monster("Goblin", 15, new string[] { "1d6", "2d3", "2d4" });
 
 while (true)
 {
     Console.WriteLine($"{playerName} with {playerHealth}hp fights {monster.Name} with {monster.Health}hp");
+    string monsterNextWeapon = monster.GetNextWeapon();
+    Console.WriteLine($"{monster.Name} prepares to hit for {monsterNextWeapon}");
     Console.Write($"Given choice between ATTACK and BLOCK {playerName} decides to ");
     string choice = Console.ReadLine();
-    int monsterAttackValue = rollDice(monster.Weapon);
+    int monsterAttackValue = rollDice(monsterNextWeapon);
     switch (choice)
     {
         case "ATTACK":

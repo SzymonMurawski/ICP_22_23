@@ -10,12 +10,17 @@ namespace MonsterSlayerGame
     {
         public string Name;
         public int Health;
-        public string Weapon;
-        public Monster(string name, int health, string weapon)
+        public string[] Weapons;
+        private Random random = new Random();
+        public Monster(string name, int health, string[] weapons)
         {
             Name = name;
             Health = health;
-            Weapon = weapon;
+            Weapons = weapons;
+        }
+        public string GetNextWeapon()
+        {
+            return Weapons[random.Next(Weapons.Length)];
         }
     }
 }
