@@ -1,5 +1,5 @@
 ## Conway's game of life
-- Create a function `printGrid`, that takes an array of booleans as an argument and prints that array using '`.`' for `false` and '`#`' for true
+- Create a function `printGrid`, that takes a 2d array of booleans as an argument and prints that array using '`.`' for `false` and '`#`' for true
 - Create a function `randomizeGrid`, that takes a 2d array of booleans as an input, and then for every cell randomly assigns `true` or `false` value
 - Create a function `howManyNeighbors` that takes as arguments: 2d array of booleans, integer x and integer y and returns a single integer value - number of neighbors of cell `x,y` with `true` value. As neighbors we count nearest horizontal, vertical and diagonal cells.
   - IMPORTANT! To correctly handle edge cases use Periodic Boundary Conditions. 
