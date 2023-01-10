@@ -14,6 +14,8 @@ namespace JokeApp
         public string? Setup { get; set; }
         [property: JsonPropertyName("delivery")]
         public string? Delivery { get; set; }
+        [property: JsonPropertyName("joke")]
+        public string? Joke { get; set; }
         [property: JsonPropertyName("flags")]
         public Flags? Flags { get; set; }
         [property: JsonPropertyName("id")]
