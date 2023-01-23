@@ -1,0 +1,98 @@
+﻿[
+  {
+    "Name": "Pack of gold coins",
+    "Value": 100,
+    "Weight": 3,
+    "Volume": 2
+  },
+  {
+    "Name": "Diamond ring",
+    "Value": 300,
+    "Weight": 1,
+    "Volume": 1
+  },
+  {
+    "Name": "Serpent scepter",
+    "Value": 500,
+    "Weight": 10,
+    "Volume": 4
+  },
+  {
+    "Name": "Silver bar",
+    "Value": 150,
+    "Weight": 6,
+    "Volume": 4
+  },
+  {
+    "Name": "Luxury rug",
+    "Value": 300,
+    "Weight": 40,
+    "Volume": 40
+  },
+  {
+    "Name": "Silver cookware",
+    "Value": 58,
+    "Weight": 53,
+    "Volume": 12
+  },
+  {
+    "Name": "Ancient painting",
+    "Value": 500,
+    "Weight": 10,
+    "Volume": 30
+  },
+  {
+    "Name": "Brass clock",
+    "Value": 76,
+    "Weight": 120,
+    "Volume": 20
+  },
+  {
+    "Name": "Silver locket",
+    "Value": 10,
+    "Weight": 2,
+    "Volume": 1
+  },
+  {
+    "Name": "Encrusted crown",
+    "Value": 30,
+    "Weight": 6,
+    "Volume": 9
+  },
+  {
+    "Name": "Damascus sword",
+    "Value": 80,
+    "Weight": 9,
+    "Volume": 3
+  },
+  {
+    "Name": "Copper goblet",
+    "Value": 17,
+    "Weight": 2,
+    "Volume": 3
+  },
+  {
+    "Name": "Purple robe",
+    "Value": 60,
+    "Weight": 7,
+    "Volume": 10
+  },
+  {
+    "Name": "Plated armor",
+    "Value": 1000,
+    "Weight": 140,
+    "Volume": 45
+  },
+  {
+    "Name": "Box of incense",
+    "Value": 50,
+    "Weight": 5,
+    "Volume": 3
+  },
+  {
+    "Name": "Barrel of wine",
+    "Value": 50,
+    "Weight": 20,
+    "Volume": 10
+  }
+]
